@@ -1,0 +1,9 @@
+$display-class-prefix: 'ds' !default;
+$display-styles: (
+  'in': inline,
+  'ib': inline-block,
+  'bl': block,
+  'fl': flex,
+  'gr': grid,
+  'no': none,
+) !default;

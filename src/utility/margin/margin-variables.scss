@@ -1,0 +1,28 @@
+$margin-width-var-prefix: 'margin-width' !default;
+$margin-width-class-prefix: 'm' !default;
+$margin-width-multipliers: (
+  '0': 0,
+  '1': 1,
+  '2': 2,
+  '3': 4,
+  '4': 8,
+  '5': 16,
+  '6': 32,
+  '7': 64,
+) !default;
+
+// TODO Add this to custom properties def
+$margin-width-styles: (
+  'p10': 10%,
+  'p20': 20%,
+  'p25': 25%,
+  'p30': 30%,
+  'p40': 40%,
+  'p50': 50%,
+  'p60': 60%,
+  'p70': 70%,
+  'p75': 75%,
+  'p80': 80%,
+  'p90': 90%,
+  'p100': 100%,
+) !default;

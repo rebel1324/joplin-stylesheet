@@ -1,0 +1,15 @@
+@import '../variables/sizes.scss';
+
+@import './margin-variables.scss';
+
+:root {
+  @each $label, $multiplier in $margin-width-multipliers {
+    --#{$margin-width-var-prefix}-#{$label}: calc(
+      var(--#{$fill-size-prefix}) * #{$multiplier}
+    );
+  }
+
+  @each $label, $style in $margin-width-styles {
+    --#{$margin-width-var-prefix}-#{$label}: #{$style};
+  }
+}
